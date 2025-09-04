@@ -301,7 +301,7 @@ a {
 
 .popular-top .desc {
   font-weight: 400;
-  font-size: 1.8;
+  font-size: 1.8rem;
   line-height: 1.67;
   color: #5f5b53;
 }
@@ -376,28 +376,28 @@ a {
 
 .popular .coure-item .foot .price {
   font-weight: 600;
-  font-size: 1.8;
+  font-size: 1.8rem;
   line-height: 1.67;
   color: #171100;
 }
 
 .popular .coure-item .Title a {
   font-weight: 600;
-  font-size: 1.8;
+  font-size: 1.8rem;
   line-height: 1.67;
   color: #171100;
 }
 
 .popular .rating .value {
   font-weight: 400;
-  font-size: 1.6;
+  font-size: 1.6rem;
   line-height: 1.75;
   color: #fea31b;
 }
 
 .popular .coure-item .desc {
   font-weight: 400;
-  font-size: 1.4;
+  font-size: 1.4rem;
   line-height: 1.86;
   color: #171100;
   margin-top: 6px;
@@ -438,7 +438,7 @@ a {
   margin-top: 18px;
   color: #f7f7f7;
   font-weight: 700;
-  font-size: 2.4;
+  font-size: 2.4rem;
   line-height: 1.42;
   font-family: var(--font-heading);
 }
@@ -446,7 +446,7 @@ a {
 .feedback-item .info .desc {
   margin-top: 4px;
   font-weight: 400;
-  font-size: 1.4;
+  font-size: 1.4rem;
   line-height: 1.86;
   color: #bfbcb2;
 }
@@ -477,7 +477,7 @@ a {
 
 .feedback-item blockquote {
   font-weight: 400;
-  font-size: 2.6;
+  font-size: 2.6rem;
   line-height: 1.54;
   color: #ffffff;
 }
@@ -520,7 +520,7 @@ a {
   margin-top: 16px;
   color: #5f5b53;
   font-weight: 400;
-  font-size: 1.6;
+  font-size: 1.6rem;
   line-height: 1.75;
 }
 
@@ -548,4 +548,96 @@ a {
   width: 470px;
   height: 440px;
   border-radius: 20px;
+}
+
+/* ========= phần blog ========== */
+.blogs {
+  margin-top: 135px;
+  padding: 96px 0;
+  background: #fffcf4;
+}
+
+.blogs .blog-top {
+  text-align: center;
+}
+
+.blogs .blog-top .desc {
+  color: #696262;
+  margin: 0 auto;
+  width: 448px;
+  font-size: 1.6rem;
+  line-height: 1.75;
+}
+
+.blogs .blog-list {
+  gap: 30px;
+  display: flex;
+  margin-top: 55px;
+}
+
+.blogs .item {
+  width: 33.5%;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.blogs .item:hover{
+  box-shadow: 0px 16px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.blogs .item .thumb {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.blogs .item .info {
+  padding: 20px 20px 28px;
+}
+
+.blogs .item .date {
+  position: relative;
+  padding-bottom: 12px;
+  display: inline-flex;
+  align-items: center;
+  color: #5f5b53;
+  font-size: 1.4rem;
+  line-height: 1.86;
+}
+
+.blogs .item .date::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+}
+
+.blogs .item .date::after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: "";
+  display: inline-block;
+  right: -27px;
+  height: 1px;
+  border-radius: 0.5px;
+  background-color: #e2dfda;
+}
+
+.blogs .item .info {
+  margin-top: 12px;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 1.75;
+}
+
+.blogs .item .btn{
+  margin-top: 12px;
+}
+
+.blogs .item .btn:hover {
+  background: var(--primary-color);
 }
